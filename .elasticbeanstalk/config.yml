@@ -1,0 +1,18 @@
+branch-defaults:
+  production:
+    environment: kit-upgrade-bot-production
+  # (optional) Other branch-specific settings 
+  # (e.g. if you want a staging environment)
+  master:
+    environment: kit-upgrade-bot-staging
+global:
+  application_name: kit-upgrade-bot
+  default_ec2_keyname: null
+  default_platform: arn:aws:elasticbeanstalk:us-east-1::platform/Docker running on
+    64bit Amazon Linux/2.11.0
+  default_region: us-east-1
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  sc: git
