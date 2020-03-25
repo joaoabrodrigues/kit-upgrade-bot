@@ -1,0 +1,20 @@
+{
+  "name": "kit-upgrade-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm install pm2 -g",
+    "dev": "nodemon",
+    "production": "pm2 start src/examples/schedule2.js --name schedule2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-schedule": "^1.3.2",
+    "nodemon": "^2.0.2",
+    "pm2": "^4.2.3",
+    "telegraf": "^3.36.0"
+  }
+}
