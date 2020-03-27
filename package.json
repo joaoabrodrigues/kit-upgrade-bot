@@ -6,7 +6,7 @@
   "scripts": {
     "preinstall": "npm install pm2 -g",
     "dev": "nodemon",
-    "production": "pm2 start src/examples/schedule2.js --name schedule2"
+    "production": "pm2 start src/index.js --name bot"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,7 @@
     "node-schedule": "^1.3.2",
     "nodemon": "^2.0.2",
     "pm2": "^4.2.3",
+    "request": "^2.88.2",
     "telegraf": "^3.36.0"
   }
 }
